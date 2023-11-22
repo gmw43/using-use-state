@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Display from './counterDisplay';
 
 export default function Counter() {
-  const [count, setCount] = useState("counter");
+  const [count, setCount] = useState(0);
 
   const handleIncreament = () => {
     setCount(count + 1);
